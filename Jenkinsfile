@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        PATH = "/opt/homebrew/bin:/usr/local/bin:${env.PATH}"
-        BUCKET_NAME = 'static-website-s3'
-        AWS_REGION = 'us-east-1'
-    }
+    PATH = "/opt/homebrew/bin:/usr/local/bin:${env.PATH}"
+    BUCKET_NAME = 'divyansh-jenkins-static-site-2026'
+    AWS_REGION = 'us-east-1'
+}
 
     stages {
 
